@@ -1,0 +1,107 @@
+#contenedor{
+	height: 1300px;
+	width: 98%;
+	background: white;
+	border-radius: 1em;
+	margin: auto;
+	overflow: hidden;
+	padding: 15px;
+	border: 5px solid #273E4E;
+}
+#header{
+	height: 70px;
+	width: 99%;
+	background: linear-gradient(#446B87, #FB2C36);
+	border-radius: 0em;
+	margin: auto;
+	font-size: 55px;
+	font-family: arial black;
+	text-align: center;
+}
+#contenido{
+	height: 1020px;
+	width: 64%;
+	background: linear-gradient(#782CFB, #446B87);
+	border-radius: 0em;
+	float: left;
+	margin: 0.5em;
+	font-family: cursive;
+	border: 9px solid black;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
+	text-align: center;
+}
+.columna derecha{
+	flex: 1;
+}
+.columna izquierda{
+	flex: 2;
+}
+.video{
+	float: center;
+}
+#sidebar{
+	height: 79%;
+	width: 13%;
+	background: linear-gradient(#446B87, #FB2C36);
+	border-radius: 0em;
+	float: left;
+	margin: 1%;
+	text-align: center;
+}
+#nav{
+	height: 8%;
+	width: 14%;
+	background: #273E4E;
+	border-radius: 0em;
+	float: right;
+	clear: right;
+	margin: 0.3em;
+	display: flex;
+	justify-content: center;
+	border: 8px solid black;
+}
+#nav:hover{
+	background-color: #446B87;
+	border: 6px solid black;
+}
+#header:hover{
+	background-color: #877F7F;
+		border: 5px solid black;
+}
+#contenido:hover{
+	background: #782CFB;
+	border: 8px solid black;
+}
+#footer:hover{
+	background-color: #65D685;
+		border: 5px solid black;
+}
+#sidebar:hover{
+	background-color: #65D685;
+		border: 5px solid black;
+}
+.menu ul{
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+	font-size: 28px;
+	font-style: italic;
+}
+.menu ul li a{
+	padding: 15px 25px;
+	text-decoration: none;
+	transition: 0.3s;
+	color: white;
+}
+#footer{
+	height: 95px;
+	width: 98%;
+	background: linear-gradient(#FB2C36, #446B87);
+	border-radius: 1em;
+	margin: 1.5em;
+	clear: both;
+	text-align: center;
+}
